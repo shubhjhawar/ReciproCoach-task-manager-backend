@@ -21,7 +21,7 @@ cron.schedule('0 0 * * *', () => {
   cronService.updateColumnsInTasks();
 }, {
   scheduled: true,
-  timezone: "Australia/Sydney"
+  timezone: "America/Toronto"
 });
 
 app.get('/', (req, res) => {

@@ -13,7 +13,6 @@ const taskSchema = new mongoose.Schema(
     },
     fixed_dueDate: {
       type: Date,
-      required: true,
     },
     variable_dueDate: Date,
     complete: {
